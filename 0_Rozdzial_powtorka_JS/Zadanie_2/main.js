@@ -1,21 +1,13 @@
 function checkPalindrome(str) {
-    str.replace(" ", "")
+    const originalStr = str
+    str = str.split(/\s/).join('')
     str = str.toLowerCase()
-    //console.log(str)
-    if(str == reverse(str)) {
-        //console.log(str)
-        //console.log(reverse(str))
-        return `${str} jest palindromem`
+    const reversedStr = [...str].reverse().join("")
+
+    if(str === reversedStr) {
+        return `${originalStr} jest palindromem`
     }
     else {
-        //console.log(str)
-        //console.log(reverse(str))
-        return `${str} nie jest palindromem`
+        return `${originalStr} nie jest palindromem`
     }
-}
-
-function reverse(str) {
-    str.replace(/\s/, "")
-    return str = str.toLowerCase()
-    console.log(str)
 }
