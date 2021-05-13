@@ -35,6 +35,11 @@ export default function App() {
         setInterval(() => {
             setTime(new Date().toLocaleTimeString())
         }, 1000)
+
+        // return function {
+        //     clearInterval(intervalId)
+        // }
+
     },  [])
     return (
         <View style={styles.container}>
