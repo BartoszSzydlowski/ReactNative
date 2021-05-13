@@ -6,29 +6,43 @@ import Surname from './Zadanie 1/Surname'
 import SquareBox from "./Zadanie 2/SquareBox";
 import ShowDate from "./Zadanie 3/ShowDate";
 import Map from "./Zadanie 4/Map";
-import Square5 from "./Zadanie 5/Square5";
+import Grid from "./Zadanie 5/Grid";
 import Pizza from "./Zadanie 6/Pizza";
+import Invitation from "./Zadanie 7/Invitation";
+import DateTimer from "./Zadanie 8/DateTimer";
+
+let inviteData = {
+    date: "sobota",
+    time: "16",
+    place: "domowka",
+    dressCode: "brak"
+
+}
+
+let dateTime = new Date()
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-        {/*<Name />*/}
-        {/*<Surname />*/}
-        {/*<ShowDate />*/}
-        {/*<Map />*/}
-        {/*<SquareBox />*/}
-        <Square5 />
-        {/*<Pizza />*/}
-        <StatusBar style="auto" />
-    </View>
-  )
+    return (
+        <View style={styles.container}>
+            {/*<Name />*/}
+            {/*<Surname />*/}
+            {/*<ShowDate />*/}
+            {/*<Map />*/}
+            {/*<SquareBox />*/}
+            {/*<Grid />*/}
+            {/*<Pizza />*/}
+            {/*<Invitation inviteData = {inviteData} />*/}
+            <DateTimer date = {dateTime} />
+            <StatusBar style="auto" />
+        </View>
+    )
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
 });
