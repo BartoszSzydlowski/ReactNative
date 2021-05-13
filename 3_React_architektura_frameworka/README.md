@@ -16,7 +16,7 @@ Stwórz komponent funkcyjny, w którym utworzysz 3 komponenty funkcyjne z kwadra
 
 ## Zadanie 3
 
-Stwórz komponent tekstowy. Wyświetl w nim bierzącą datę, która bedzie zawierała dzień, miesiąc i rok. Format danych dowolny.
+Stwórz komponent tekstowy. Wyświetl w nim biezącą datę, która bedzie zawierała dzień, miesiąc i rok. Format danych dowolny.
 
 ## Zadanie 4
 
@@ -29,6 +29,7 @@ Przy okazji omawiania View komponentu na slajdzie był przedstawiony układ blok
 Wykorzystując obiekt StyleSheet i komponent View odtwórz ten układ samodzielnie.
 
 ## Zadanie 6 
+
 
 W React Native nie ma znaczników oznaczających wyboldowanie lub pochylenie fontu. Wykorzystuje się do tego zagnieżdżone komponenty Text z odpowiednimi stylami.
 
